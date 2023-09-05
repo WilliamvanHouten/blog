@@ -1,0 +1,45 @@
+/* LatestNews.css */
+
+.latest-news-container {
+    overflow: hidden;
+    margin-top: 10px;
+    background-color: rgb(202, 203, 203);
+  }
+
+  .news-header{
+    text-align: center;
+  }
+  
+  .slider {
+    display: flex; /* Display news items in a row */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-snap-type: x mandatory; /* Enable snapping to items */
+    scroll-behavior: smooth; /* Smooth scrolling animation */
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+    gap: 20px; /* Space between news items */
+    padding: 10px; /* Add padding for spacing and snap alignment */
+  }
+  
+  .news-item {
+    flex: 0 0 auto; /* Disable flex growth to maintain item size */
+    scroll-snap-align: start; /* Snap alignment to the start of each item */
+    width: 300px; /* Set a minimum width for each news item */
+    padding: 10px; /* Add padding to the news item */
+    border: none; /* Add a border for separation */
+  }
+  
+  .news-image {
+    width: 100%;
+    height: 190px;
+  }
+  
+  .news-title {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .news-description {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,12 @@
+.blog-container{
+    background-color: rgb(202, 203, 203);
+    margin-top: -22px;
+    
+}
+
+.bootcamp-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: white;
+}
