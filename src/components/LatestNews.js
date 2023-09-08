@@ -8,7 +8,7 @@ const LatestNews = () => {
       id: 1,
       title: 'AI',
       image: 'tech1.jpg',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      description: 'New Deep Learning Algorithm Achieves Human-Level Understanding.',
     },
     {
       id: 2,
@@ -18,27 +18,27 @@ const LatestNews = () => {
     },
     {
       id: 3,
-      title: 'Breaking News 3',
+      title: 'Robotics & AI',
       image: 'tech3.jpg',
-      description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
+      description: 'Autonomous Robots Set to Transform Manufacturing Industries.',
     },
     {
       id: 4,
-      title: 'Breaking News 4',
+      title: 'Tech salaries soar',
       image: 'tech4.jpg',
-      description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+      description: ' IT Professionals Enjoy Record High Paychecks.',
     },
     {
         id: 4,
-        title: 'Breaking News 4',
+        title: 'Tech Talent Shortage',
         image: 'tech1.jpg',
-        description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+        description: 'Software Engineers in High Demand as Tech Industry Faces Talent Shortage',
       },
       {
         id: 4,
-        title: 'Breaking News 4',
+        title: 'In-Demand Tech Languages:',
         image: 'tech1.jpg',
-        description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+        description: ' Python and JavaScript Dominate Job Listings.',
       }
   ];
   const [currentIndex, setCurrentIndex] = useState(0);

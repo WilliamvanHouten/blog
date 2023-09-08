@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
-}
+/* imported  font */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap");
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Add these styles to your App.css file */
+nav ul {
+  list-style-type: none;
+  padding: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between; /* To display buttons horizontally with space in between */
+  margin-bottom: 30px; /* Add spacing between the buttons and the content */
+  /* font-family: 'Roboto', sans-serif; */
+}
+
+nav button {
+  padding: 10px 20px;
+  background-color: #3e81c8;
   color: white;
+  border: none;
+  cursor: pointer;
+  font-family: "Luckiest Guy", cursive;
+  font-size: 24px;
+  border-radius: 8px;
 }
 
-.App-link {
-  color: #61dafb;
+nav button:hover {
+  background-color: #0056b3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-button {
+  /* Existing button styles */
+  transition: transform 0.2s; /* Add a smooth transition effect for the transform property */
+}
+
+.nav-button:hover {
+  transform: translateY(-5px); /* Move the button 3 pixels up when hovered */
+}
+ 
+footer{
+  height: 68px;
+  border: solid #2f3030;
+  background-color: #3e81c8;
+  color: white;
+ 
+}
+p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
 }

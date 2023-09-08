@@ -1,0 +1,45 @@
+/* BlogPage.css */
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap");
+.blog-container-2 {
+    width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(239, 239, 249);
+    border-radius: 8px;
+  }
+  
+  .blog-content {
+    font-size: 28px;
+    line-height: 1.6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+  }
+  
+  h1 {
+    font-size: 38px;
+    margin-bottom: 30px;
+    font-family: "Luckiest Guy", cursive;
+    color: rgb(0, 0, 0);
+  }
+  
+  h2 {
+    font-size: 34px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Luckiest Guy", cursive;
+    color:rgb(0, 0, 0)
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(0, 0, 0);
+  }
+  
+  strong {
+    font-weight: bold;
+    font-family: "Luckiest Guy", cursive;
+    color: rgb(0, 0, 0);
+  }
+  
