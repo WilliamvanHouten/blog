@@ -49,3 +49,23 @@ p{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 24px;
 }
+
+/* Add this to your stylesheet */
+.create-post-button {
+  background-color: #007bff; /* Choose your preferred background color */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none;
+  cursor: pointer;
+  font-size: 26px; /* Adjust font size as needed */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+  margin: auto;
+  display: block;
+}
+
+
+.create-post-button:hover {
+  background-color: #0056b3; /* Change background color on hover */
+
+}

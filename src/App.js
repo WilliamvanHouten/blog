@@ -78,7 +78,10 @@ function App() {
         return (
           <div>
            
-            <button onClick={() => setCurrentPage('create')}>Create a Post</button>
+           <button className="create-post-button" onClick={() => setCurrentPage('create')}>
+  Create a Post
+</button>
+
             <PostList
               posts={posts}
               onDelete={handleDeletePost}
