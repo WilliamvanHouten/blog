@@ -32,15 +32,17 @@ nav button:hover {
   transition: transform 0.2s; /* Add a smooth transition effect for the transform property */
 }
 
+
 .nav-button:hover {
   transform: translateY(-5px); /* Move the button 3 pixels up when hovered */
 }
  
 footer{
-  height: 68px;
-  border: solid #2f3030;
-  background-color: #3e81c8;
+  height: 150px;
+  border: solid #656767;
+  background-color: #b3b3e8;
   color: white;
+  text-align: center;
  
 }
 p{

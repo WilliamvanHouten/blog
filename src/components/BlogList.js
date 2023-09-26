@@ -65,28 +65,24 @@ const BlogList = () => {
     return (
       <div className="blog-container">
         <h2>Top 5 Coding Bootcamps in South Africa</h2>
-        <ul>
+        <div className="card-container">
           {bootcamps.map((bootcamp, index) => (
-            <li key={index}>
+            <div className="card" key={index}>
               <img src={bootcamp.image} alt={bootcamp.name} className="bootcamp-image" />
               <h3>{bootcamp.name}</h3>
               <p>{bootcamp.description}</p>
               <p><strong>Location:</strong> {bootcamp.location}</p>
               <p><strong>Paid:</strong> {bootcamp.paid ? 'Yes' : 'No'}</p>
               <p><strong>Rating:</strong> {generateStars(bootcamp.rating)}</p>
-            </li>
+            </div>
           ))}
-        </ul>
-           {/* Footer */}
-      <footer className="footer">
-        <p>&copy; TTW BLOG CODED BY Tionne , Theo , William. All Rights Reserved.</p>
-      </footer>
-    </div>
-  );
-};
-    
-
+        </div>
+        {/* Footer */}
+        <footer className="footer">
+          <p>&copy; TTW BLOG CODED BY Tionne, Theo, William. All Rights Reserved.</p>
+        </footer>
+      </div>
+    );
+  };
   
-
-
-export default BlogList;
+  export default BlogList;

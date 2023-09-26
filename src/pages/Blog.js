@@ -2,84 +2,104 @@ import React from 'react';
 import '../components/Blog.css'; // Import your CSS file for styling
 
 const Blog = () => {
+  // Define your own author information
+  // const authors = [
+  //   { author: 'Your Name', username: 'yourusername123' },
+  //   // Add more authors here as needed
+  // ];
+
+  // Create your own blog posts
+  const customBlogPosts = [
+    {
+      title: 'My Coding Bootcamp Experience',
+      content:
+        'I recently completed a coding bootcamp, and it was an amazing journey. ' +
+        'I learned a lot about web development and gained hands-on experience ' +
+        'working on real projects. The bootcamp was intense, but it was worth it. ' +
+        'I highly recommend considering a coding bootcamp if you want to jumpstart ' +
+        'your career in technology.',
+      author: 'Jenny Doe',
+      username: 'username123',
+      date: 'September 15, 2023', // Add your own date
+    },
+    {
+      title: 'The Benefits of Traditional Education',
+      content:
+        'While coding bootcamps are a great option, traditional education also has its ' +
+        'advantages. I pursued a degree in computer science, and it provided me with ' +
+        'in-depth knowledge and research opportunities. It took longer to complete ' +
+        'but opened doors to various career options.',
+      author: 'Mary Joseph',
+      username: 'maryJ123',
+      date: 'September 20, 2023', // Add your own date
+    },
+    {
+      title: 'Making the Decision: Bootcamp or Degree?',
+      content:
+        'Choosing between a coding bootcamp and a traditional degree program ' +
+        'is a significant decision. It ultimately depends on your goals and ' +
+        'circumstances. If you need quick, hands-on skills, a bootcamp might be ' +
+        'the way to go. However, if you want a deeper understanding of computer ' +
+        'science, a degree program could be the better choice.',
+      author: 'Tasha Cobbs',
+      username: 'TashInTech',
+      date: 'September 25, 2023', // Add your own date
+    },
+    {
+      title: 'Life After My Bootcamp Graduation',
+      content:
+        'After completing my coding bootcamp, I started my job search in ' +
+        'earnest. Thanks to the connections I made during the bootcamp, I ' +
+        'quickly found a position as a junior web developer. The fast-paced ' +
+        'nature of the bootcamp prepared me well for the real world of ' +
+        'software development.',
+      author: 'Daniel Duff',
+      username: 'danielD',
+      date: 'October 5, 2023', // Add your own date
+    },
+    {
+      title: 'Exploring the Best of Both Worlds',
+      content:
+        'What if you could combine the benefits of both coding bootcamps ' +
+        'and traditional education? Some universities now offer coding ' +
+        'bootcamp-style programs within their curriculum. Its a hybrid '+
+        'approach that provides practical skills alongside a degree.',
+      author: 'Eathon Davids',
+      username: 'Eathonal202',
+      date: 'October 10, 2023', // Add your own date
+    },
+    {
+      title: 'Continuous Learning in Tech',
+      content:
+        'Regardless of your initial choice, one thing is certain: technology ' +
+        'is ever-evolving. Continuous learning is essential. Whether you ' +
+        'choose bootcamps, degrees, or a mix of both, staying updated ' +
+        'with the latest tech trends is crucial for a successful career.',
+      author: 'Yara Georgia',
+      username: 'YaraGeorge',
+      date: 'October 15, 2023', // Add your own date
+    },
+    // Add more custom blog posts here as needed
+  ];
+
+  const blogPosts = customBlogPosts;
+
   return (
     <div className="blog-container-2">
-      <h1>Coding Bootcamps vs. Traditional Education: Which is Right for You?</h1>
-      <img className='blog' src="./blog1.jpg" width={777} alt='first'/>
-      <div className="blog-content">
-        <p>
-          In recent years, coding bootcamps have gained popularity as an alternative route to kickstart a career in
-          technology. But is a coding bootcamp the right choice for you, or should you stick with the traditional
-          education route? Let's explore the pros and cons of each.
-        </p>
+      <h1 className="blog-heading">Coding Bootcamps vs. Traditional Education: Which is Right for You?</h1>
 
-        {/* Image 1 */}
-        <img className='blog' src="./blog2.jpg" width={600} alt="1" />
-
-        <h2>Coding Bootcamps</h2>
-        <p>
-          <strong>Pros:</strong>
-        </p>
-        <ul>
-          <li>Rapid skill acquisition: Bootcamps are known for their short duration and intensive training.</li>
-          <li>Hands-on experience: You work on real projects and gain practical skills.</li>
-          <li>Job-focused: Many bootcamps emphasize job placement and industry connections.</li>
-          <li>Cost-effective: Bootcamps are often more affordable than traditional degrees.</li>
-        </ul>
-
-        {/* Image 2 */}
-        <img className='blog' src="./blog6.jpg" width={600} alt="2"  />
-
-        <p>
-          <strong>Cons:</strong>
-        </p>
-        <ul>
-          <li>Intensive pace: The fast-paced nature of bootcamps can be challenging for some learners.</li>
-          <li>Limited depth: Bootcamps may not cover as much theoretical knowledge as traditional programs.</li>
-          <li>Varied quality: Quality can vary between different bootcamps, so research is essential.</li>
-        </ul>
-
-        {/* Image 3 */}
-        <img className='blog' width={600} src="./blog3.jpg" alt="3" />
-
-        <h2>Traditional Education</h2>
-        <p>
-          <strong>Pros:</strong>
-        </p>
-        <ul>
-          <li>In-depth learning: Traditional programs offer comprehensive theoretical knowledge.</li>
-          <li>Degree recognition: A degree is often a prerequisite for certain jobs and career advancement.</li>
-          <li>Research opportunities: Universities provide access to research projects and resources.</li>
-          <li>Networking: You can build a network of peers and professors.</li>
-        </ul>
-
-        {/* Image 4 */}
-        <img className='blog'  src="./blog4.jpg" width={600}  alt="4" />
-
-        <p>
-          <strong>Cons:</strong>
-        </p>
-        <ul>
-          <li>Longer duration: Traditional degrees typically take several years to complete.</li>
-          <li>Higher cost: University education can be expensive, including tuition and living expenses.</li>
-          <li>Less hands-on: Theoretical knowledge may not directly translate to practical skills.</li>
-        </ul>
-        <img className='blog'  src="./tech4.jpg" width={600}  alt="5" />
-
-
-        <h2>Conclusion</h2>
-        <p>
-          The choice between coding bootcamps and traditional education depends on your goals, learning style, and
-          resources. Consider your career aspirations, time availability, and budget when making your decision. Both
-          paths can lead to a successful career in technology.
-        </p>
-      </div>
+      {blogPosts.map((post, index) => (
+        <div className="blog-card" key={index}>
+          <h2 className="post-title">{post.title}</h2>
+          <p className="post-content">{post.content}</p>
+          <p className="post-author">Author: {post.author}</p>
+          <p className="post-username">Username: {post.username}</p>
+          <p className="post-date">Date: {post.date}</p>
+        </div>
+      ))}
     </div>
   );
 };
 
 export default Blog;
-
-
-
 

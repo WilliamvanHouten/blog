@@ -1,45 +1,99 @@
-/* BlogPage.css */
+/* Blog.css */
 @import url("https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap");
+
+.blog-heading{
+  font-family: "Luckiest Guy", cursive;
+  font-size: 35px;
+  text-align: center;
+  animation: bop 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate;
+
+}
+
 .blog-container-2 {
-    width: 1500px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: rgb(239, 239, 249);
-    border-radius: 8px;
-  }
+  max-width: 1550px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.blog-card {
+  background-color: #86b5f4;
+  border: 1px solid #424242;
+  border-radius: 8px;
+
   
-  .blog-content {
-    font-size: 28px;
-    line-height: 1.6;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(0, 0, 0);
-  }
-  
-  h1 {
-    font-size: 38px;
-    margin-bottom: 30px;
-    font-family: "Luckiest Guy", cursive;
-    color: rgb(0, 0, 0);
-  }
-  
-  h2 {
-    font-size: 34px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-family: "Luckiest Guy", cursive;
-    color:rgb(0, 0, 0)
-  }
-  
-  ul {
-    list-style-type: disc;
-    margin-left: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:rgb(0, 0, 0);
-  }
-  
-  strong {
-    font-weight: bold;
-    font-family: "Luckiest Guy", cursive;
-    color: rgb(0, 0, 0);
-  }
-  
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow:#0056b3;
+
+}
+.blog-card:hover{
+  transform: scale(1.03);
+  cursor: pointer;
+  background-color: #a4cdf6;
+}
+
+.post-title {
+  font-size: 44px;
+  margin-bottom: 10px;
+  font-family: luckiest-guy, cursive;
+}
+
+.post-content {
+  font-size: 26px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+  color: rgb(86, 85, 85);
+}
+
+.post-author,
+.post-username,
+.post-date {
+  font-size: 24px;
+  color: #e9e8e8;
+}
+
+.comments {
+  margin-top: 20px;
+}
+
+.comments h3 {
+  font-size: 18px;
+}
+
+.comments ul {
+  list-style: none;
+  padding: 0;
+}
+
+.comments ul li {
+  margin-bottom: 10px;
+}
+
+.comment-form {
+  margin-top: 20px;
+}
+
+.comment-form label {
+  font-size: 16px;
+}
+
+.comment-form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+}
+
+.comment-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.comment-form button:hover {
+  background-color: #0056b3;
+}

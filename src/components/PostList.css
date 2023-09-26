@@ -1,0 +1,79 @@
+
+/* Container styling */
+.container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Form styling */
+.form {
+  margin-bottom: 20px;
+}
+
+.form input[type="text"],
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Post list styling */
+.post {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.post h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.post p {
+  margin: 10px 0;
+  color: #666;
+}
+
+.post button {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.post button.edit {
+  background-color: #ffc107;
+  color: #333;
+}
+
+/* Header styling */
+h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}

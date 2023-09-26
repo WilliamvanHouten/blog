@@ -1,0 +1,83 @@
+
+/* ../components/CreatePost.css */
+/* ../components/CreatePost.css */
+
+/* Style the form container */
+.form-container {
+    margin-top: 30px;
+    border: 5px solid #ccc;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Style the input fields */
+  .form-container input[type="text"],
+  .form-container textarea {
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  /* Style the buttons */
+  .form-container button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #727aef;
+    color: #fff;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  
+  /* Change button background color on hover */
+  .form-container button:hover {
+    background-color: #7ea0f7;
+  }
+  
+
+/* Style  for created posts */
+.created-posts {
+    margin-top: 20px;
+  }
+  
+  /* Style each individual post card */
+  .post-card {
+    border: 5px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f0f0f0;
+  }
+  
+  /* Style the post title */
+  .post-card h4 {
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+  
+  /* Style the post content */
+  .post-card p {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the edit and delete buttons */
+  .post-card button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #7ea0f7;
+    color: #333;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  /* Change button background color on hover */
+  .post-card button:hover {
+    background-color: #ddd;
+    cursor: pointer;
+    transform: scale(1.02);
+  }
+  
+  
